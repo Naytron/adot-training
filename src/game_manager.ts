@@ -12,7 +12,7 @@ interface GameManagerOptions {
 }
 
 export class GameManager {
-  static startTiles: number = 2;
+  static startTiles: number = 1;
 
   private grid: number[][];
   private score = 0;
